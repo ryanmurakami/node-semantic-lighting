@@ -11,6 +11,8 @@ Install via npm:
 npm install semantic-lighting
 ```
 
+## Usage
+
 Include in your projects:
 
 ```javascript
@@ -20,11 +22,21 @@ var SemLight = require('semantic-lighting');
 Create a lighting client:
 
 ```javascript
-var light = new SemLight(apiKey, lightsArray);
+var myLight = new SemLight(apiKey, lightsArray);
 ```
 
 Query the API:
 
 ```javascript
-light.sendCommand('show me barney', callbackFunc);
+myLight.sendCommand('show me barney', callbackFunc);
+```
+
+Register a function to be called based on response:
+
+```javascript
+function colorHandler(lights, colors) {}
+
+myLight.registerFunction('set_lights_to_color', colorHandler);
+
+myLight.sendCommand('show me pee wee herman');
 ```
