@@ -1,0 +1,32 @@
+<html>
+<head>
+  <link rel="stylesheet" href="bower_components/foundation-sites/dist/foundation.min.css" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+<body>
+  <div class="row">
+    <div class="medium-6 medium-centered large-4 large-centered columns">
+        <form>
+          <div class="row column log-in-form">
+            <h4 class="text-center">What do you want to see?</h4>
+            <label>
+              <input id="query" type="text" placeholder="eg: show me barney"/>
+            </label>
+            <p>
+              <a type="submit" class="button expanded">Submit</a>
+            </p>
+          </div>
+        </form>
+      </column>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-8 medium-centered large-8 large-centered columns">
+      <div id="lights"></div>
+    </div>
+  </div>  
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/annyang/annyang.min.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>

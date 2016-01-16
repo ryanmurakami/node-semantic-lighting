@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ryanmurakami/node-semantic-lighting",
+  "authors": [
+    "Ryan Lewis <ryanharrisonlewis@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "annyang": "~2.1.0",
+    "foundation-sites": "~6.1.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "node-semantic-lighting",
+  "version": "0.1.0",
+  "description": "A node wrapper for the semantic lighting API",
+  "main": "light.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Lewis <ryanharrisonlewis@gmail.com>",
+  "license": "MIT"
+}

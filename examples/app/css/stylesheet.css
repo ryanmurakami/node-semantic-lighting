@@ -1,0 +1,20 @@
+#lights {
+  display: flex;
+  justify-content: space-around;
+}
+
+.light {
+  height: 110px;
+  display: inline-block;
+  width: 110px;
+  border-radius: 50%;
+  border: 2px solid #444;
+}
+
+.columns > form > .row.column.log-in-form {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  border: 1px solid #cacaca;
+  padding: 1rem;
+  border-radius: 3px; 
+}
